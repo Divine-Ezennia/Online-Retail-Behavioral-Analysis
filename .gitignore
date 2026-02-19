@@ -1,0 +1,10 @@
+# Ignore processed analytical artifacts
+data/processed/*.rds
+
+# Ignore RStudio project files
+.Rproj.user/
+
+# Ignore R history/session files
+.Rhistory
+.RData
+.Ruserdata
