@@ -18,7 +18,7 @@ After downloading the dataset from UCI:
 Place the file inside: `data/raw/`  
 Expected file name: `online_retail.csv`  
 
-⚠️ Do not rename the file unless you also update the file path inside [scripts/01_data_loading.R](./scripts/01_data_loading.R).
+⚠️ Do not rename the file unless you also update the file path inside `scripts/01_data_loading.R`.
 
 ---
 
@@ -52,7 +52,7 @@ Expected file name: `online_retail.csv`
 - Missing `CustomerID` values exist and are handled during preprocessing.
 - Currency is GBP (£).
 
-All cleaning, enrichment, and feature engineering steps are executed within the `scripts/` pipeline beginning at [scripts/01_data_loading.R](./scripts/01_data_loading.R)  
+All cleaning, enrichment, and feature engineering steps are executed within the `scripts/` pipeline beginning at: `scripts/01_data_loading.R`  
 
 ---
 
@@ -62,4 +62,4 @@ To fully reproduce this project:
 
 1. Download the dataset from the UCI link above.
 2. Place it in `data/raw/`.
-3. Execute scripts sequentially from [scripts/01_data_loading.R](./scripts/01_data_loading.R) through [11_visualization_engine.R](./11_visualization_engine.R).
+3. Execute scripts sequentially from `scripts/01_data_loading.R` through `scripts/11_visualization_engine.R`.
