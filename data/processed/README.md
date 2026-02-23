@@ -68,6 +68,27 @@ Artifacts are grouped logically by analytical domain:
 ### 1️⃣ Enriched Core Dataset
 - `online_retail_enriched.rds`
 
+#### 🔎 Derived Metadata: Product Label Mapping
+
+Within `03_data_enrichment.R`, a deterministic mapping table is programmatically generated:
+
+- `ShortProductLabel`
+- `Description`
+
+This mapping ensures:
+
+- Consistent categorical labeling across all visual outputs
+- Readable axis formatting in high-density charts
+- Elimination of overly long product descriptions
+
+The mapping table is not stored as a standalone `.rds` artifact because it can be reproducibly regenerated from `online_retail_enriched.rds`.
+
+This design enforces:
+
+- Zero redundancy
+- Deterministic rebuild capability
+- Clean artifact governance
+
 ### 2️⃣ Foundational Metrics
 - Unique products and order-based aggregations
 
