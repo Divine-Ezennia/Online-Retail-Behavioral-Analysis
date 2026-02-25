@@ -189,15 +189,15 @@ Behavior-driven
 ---
 
 # 📊 Intelligence Gallery Snapshot
+One of the most critical findings of this framework was the financial asymmetry across RFM segments.
 
-All figures are generated reproducibly via the Visualization Engine.
-
-Example structural outputs include:
+RFM-based segmentation revealed that revenue sustainability is segment-dependent rather than population-dependent.
 
 ![Segment Customer Distribution](./visualizations/segment/fig_11_56_segment_customer_distribution.png)  
 ![Segment Total Revenue](./visualizations/segment/fig_11_57_segment_total_revenue.png)  
+*Figure: Revenue and population distribution across behavioral segments.*  
 
-If images do not render due to environment restrictions, all figures are accessible within `/visualizations/`.
+> 📌 If images do not render due to environment restrictions, all visual artifacts are accessible in the `/visualizations/` directory.
 
 ---
 
